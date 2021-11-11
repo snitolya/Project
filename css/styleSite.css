@@ -205,3 +205,8 @@ color: #495057;
     line-height: 20px;
     color: #6C757D;
 }
+.topics-list{
+    display: flex;
+    flex-wrap: wrap;/*переносит на новую строку*/
+    gap: 50px 20px;/*отступы*/
+}
