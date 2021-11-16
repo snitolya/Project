@@ -210,3 +210,45 @@ color: #495057;
     flex-wrap: wrap;/*переносит на новую строку*/
     gap: 50px 20px;/*отступы*/
 }
+
+.banner-info-two{
+    position: absolute;
+    top: 224px;
+    left: calc(50% - 530px / 2); /*обязательно ставить пробел!!!!*/
+    width: 530px;
+    text-align: center;
+    font-size: 20px;
+}
+.header-banner-subtext-two{
+    color: #E5E5E5;;
+    width: 420px;
+    margin: 13px auto 24px auto;
+    font-size: 12px;
+}
+.date{
+    color: #E5E5E5;;
+    margin-top: 15px;
+}
+.header-banner-subtext-two .middle-line{
+    width: 30px;
+    margin: 0px auto ;
+}
+
+.line{
+   display: flex;
+   margin-top: 20px;
+}
+.topic{
+    cursor: pointer;/*делаем курсор ручку*/
+}
+.topic-image{
+    overflow: hidden;
+    border-radius: 5px;
+}
+.topic:hover .topic-image img{
+transform: scale(1.2); /*увеличивает картинку*/
+transition: all o.3s;
+}
+.tag-list{
+    z-index: 1;
+}
